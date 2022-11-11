@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Portafolio</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar grid--container">
+      <a class="navbar__logo" href="#"><i class='bx bxs-user-circle'></i> Orlando</a>
+
+      <div class="navbar__menu">
+        <i class='bx bx-x btn__close navbar__icon'></i>
+
+        <ul class="navbar__list">
+          <li class="navbar__item"><a class="navbar__link" href="#home">Inicio</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#about">Acerca de Mí</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#projects">Portafolio</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+
+      <i class='bx bx-menu btn__open navbar__icon'></i>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="home">
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <span></span>
+          <img  class="home__profile-photo" src="assets/img/profile.png" alt="profile photo">
+        </div>
+
+        <ul class="home__social">
+          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-linkedin'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-instagram'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-facebook'></i></a></li>
+        </ul>
+
+        <div class="home__info">
+          <h1 class="home__title">👋🏻 Hey, soy Orlando </h1>
+          <h2 class="home__title">Amado Ardila</h2>
+          <p class="home__description">
+            Soy desarrollador web, apasionado por la tecnología y la programación.
+          </p>
+        </div>
+
+        <div class="home__buttons">
+          <button class="btn btn--primary" type="button">Descarga CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <h2 class="section__title">Acerca de Mí</h2>
+
+      <div class="about__container grid--container">
+        <p class="about__description">
+          Programador Full Stack, con 4 años de experiencia en gestión de proyectos. Conocimientos de arquitectura, diseño e infraestructura de sistemas. Gracias a mi conocimiento, he logrado reducir los tiempos de entrega de proyectos en un 10%. Busco utilizar mis conocimientos para optimizar los procesos de desarrollo.
+        </p>
+      </div>
+    </section>
+    <section id="about" class="about section">
+      <h2 class="section__title">Estudios</h2>
+        <div class="about__skills grid--container">
+         
+          <div class="about__cards">
+            <!--Card 1 -->
+            <div class="about__card">
+              <i class='bx bxl-html5'></i>
+
+              <h3 class="about__card-title">HTML5</h3>
+              <p>HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto.</p>
+            </div>
+            <!--Card 2 -->
+            <div class="about__card">
+              <i class='bx bxl-css3'></i>
+
+              <h3 class="about__card-title">CSS3</h3>
+              <p>CSS es un lenguaje de diseño gráfico que permite definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web e interfaces de usuario escritas en HTML..</p>
+            </div>
+            <!--Card 3 -->
+            <div class="about__card">
+              <i class='bx bxl-javascript'></i>
+
+              <h3 class="about__card-title">JavaScript</h3>
+              <p>JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web. .</p>
+            </div>
+
+            <div class="about__card">
+              <i class='bx bxl-git'></i>
+
+              <h3 class="about__card-title">Git</h3>
+              <p>Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente..</p>
+            </div>
+
+            <div class="about__card">
+              <i class='bx bxl-docker'></i>
+
+              <h3 class="about__card-title">Docker</h3>
+              <p> Con Docker se puede implementar y ajustar la escala de aplicaciones de una forma rápida en cualquier entorno con la garantía de que el código se ejecutará..</p>
+            </div>
+
+            <div class="about__card">
+              <i class='bx bxl-django' ></i>
+
+              <h3 class="about__card-title">Django</h3>
+              <p>Django es un framework de desarrollo web de código abierto, escrito en Python, que respeta el patrón de diseño conocido como modelo–vista–controlador (MVC)..</p>
+            </div>
+
+            <div class="about__card">
+              <i class='bx bxl-spring-boot'></i>
+
+              <h3 class="about__card-title">Spring</h3>
+              <p>es una de las herramientas principales del ecosistema de desarrollo web backend con Java..</p>
+            </div>
+            <div class="about__card">
+              <i class='bx bxl-java' ></i>
+
+              <h3 class="about__card-title">Java</h3>
+              <p>Java es un lenguaje de programación ampliamente utilizado para codificar aplicaciones web..</p>
+            </div>
+            <div class="about__card">
+              <i class='bx bxl-python' ></i>
+
+              <h3 class="about__card-title">Python</h3>
+              <p>Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML).</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="about" class="about section">
+          <div class="about__tags">
+            <h3 class="about__tags-title">Habilidades</h3>
+            <div class="about__tags-container">
+              <span class="about__tag">Responsable</span>
+              <span class="about__tag">Trabajo en equipo</span>
+              <span class="about__tag">Creativo</span>
+              <span class="about__tag">Puntual</span>
+              <span class="about__tag">Proactivo</span>
+              <span class="about__tag">Autodidacta</span>
+              <span class="about__tag">Eficiente</span>
+              <span class="about__tag">perseverante</span>
+              <span class="about__tag">Comunicación asertiva</span>
+              <span class="about__tag">Adaptación al cambio</span>
+              <span class="about__tag">Resolución de conflictos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Proyectos</h2>
+
+      <div class="projects__container grid--container">
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project1.jpg" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 1</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project2.png" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 2</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project3.jpg" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 3</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project4.png" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 4</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2 class="section__title">Contacto</h2>
+
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <h3 class="contact__info-title">Información de contacto</h3>
+          <p class="contact__info-description">
+            Puedes contactarme por emdio de mensajes, correo electronico, Wathsapp o por numero de telefono.
+          </p>
+
+          <address class="contatc__info-data">
+            <div class="contact__info-item">
+              <i class='bx bx-phone'></i>
+
+              <span class="contact__info-nomber">
+                +57 315 675 12 67
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class='bx bxs-envelope'></i>
+
+              <span class="contact__info-mail">
+                <a href="mailto:test@correo.com">
+                  Orlando-amado@hotmail.com
+                </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class='bx bx-map'></i>
+
+              <span class="contact__info-map">
+                Ocaña N de S, Colombia.
+              </span>
+            </div>
+          </address>
+        </div>
+
+        <div class="contact__form">
+          <h3 class="contact__form-title">Enviar mensaje</h3>
+
+          <form id="form" class="contact__form-container">
+
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label">Nombre</label>
+              <input type="text" id="name" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label">Correo</label>
+              <input type="email" id="email" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label">Mensaje</label>
+              <textarea id="message" cols="30" rows="10" class="contact__form-input"></textarea>
+            </div>
+
+            <button type="submit" class="btn contact__form-button">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Orlando Amado Ardila</h3>
+        <p class="footer__description">
+          Soy desarrollador web, apasionado por la tecnología y la programación.
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Redes Sociales</h3>
+
+        <ul class="footer__socail-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-facebook'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-instagram'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-twitter'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-linkedin'></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy">
+      &copy; 2022, Todos los derechos reservados
+    </p>
+  </footer>
+
+  <script>
+    const btnMenu = document.querySelector('.btn__open')
+    const btnClose = document.querySelector('.btn__close')
+    const Menu = document.querySelector('.navbar__menu')
+
+
+    btnMenu.onclick = function () {
+      Menu.classList.add('show--menu')
+    }
+
+    btnClose.onclick = function () {
+      Menu.classList.remove('show--menu')
+    }
+  </script>
+
+</body>
+
+</html>
